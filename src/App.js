@@ -17,7 +17,7 @@ function App() {
   useEffect(() => {
     filterHandler();
     saveLocalTodos();
-  },[todos, status])
+  },)
 
   const filterHandler = () => {
     switch(status) {
@@ -53,7 +53,7 @@ function App() {
   return(
     <div className="App">
       <header>
-        <h1>Eric's To-do List </h1>
+        <h1>My To-Get-Done List </h1>
       </header> 
       <Form 
       todos={todos} 

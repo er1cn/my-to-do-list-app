@@ -24,7 +24,7 @@ function Form ({inputText, setInputText, todos, setTodos, setStatus}) {
             onChange={inputTextHandler} 
             type="text" 
             className="todo-input" />
-            <button onClick={submitTodoHandler} className="todo-button" type="submit">
+            <button onClick={submitTodoHandler} className="todo-button" type="submit">New Item 
             <i class="fa fa-plus-square"></i>
             </button>
             <div className="select">
